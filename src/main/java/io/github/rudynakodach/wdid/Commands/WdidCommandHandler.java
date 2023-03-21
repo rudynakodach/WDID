@@ -54,6 +54,7 @@ public class WdidCommandHandler implements CommandExecutor {
                     } else {
                         player.sendMessage(message.append(Component.text(" disabled").color(NamedTextColor.RED)));
                     }
+                    break;
 
                 case "toggle":
                     if (!player.hasPermission("wdid.actions.toggle")) {
@@ -121,6 +122,7 @@ public class WdidCommandHandler implements CommandExecutor {
                     } else {
                         player.sendMessage(message.append(Component.text(" disabled").color(NamedTextColor.RED)));
                     }
+                    break;
 
                 case "toggle":
                     if (!player.hasPermission("wdid.actions.others.toggle")) {
