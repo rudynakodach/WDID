@@ -1,0 +1,2 @@
+# The default value to set the user's death notifications. If true, players will receive death information in the chat on death.
+default-value: true

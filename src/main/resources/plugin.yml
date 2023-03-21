@@ -1,0 +1,41 @@
+name: WDID
+version: '${project.version}'
+main: io.github.rudynakodach.wdid.WDID
+api-version: 1.19
+
+commands:
+  wdid:
+    usage: /wdid
+    description: Shows all available actions.
+    permission: wdid.wdid
+
+  wdidToggle:
+    usage: /wdid toggle
+    description: Toggles death notifications.
+    permission: wdid.actions.toggle
+
+  wdidEnable:
+    usage: /wdid enable
+    description: Enabled death notifications.
+    permission: wdid.actions.enable
+
+  wdidDisable:
+    usage: /wdid disable
+    description: Disables death notifications.
+    permission: wdid.actions.disable
+
+  wdidToggleOthers:
+    usage: /wdid toggle <target>
+    description: Toggles death notifications for specified target.
+    permission: wdid.actions.others.toggle
+
+  wdidEnableOthers:
+    usage: /wdid enable <target>
+    description: Enables death notifications for specified target.
+    permission: wdid.actions.others.enable
+
+  wdidDisableOthers:
+    usage: /wdid disable <target>
+    description: Disables death notifications for specified target.
+    permission: wdid.actions.others.disable
+
